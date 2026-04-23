@@ -197,6 +197,7 @@ header {
 .section-title {
   font-size: 48px;
   margin-bottom: 60px;
+  color: var(--text-color);
 }
 
 .directors-grid {
@@ -434,6 +435,15 @@ header {
   font-size: 15px;
   line-height: 25px;
   margin: 0;
+}
+
+.socials {
+  color: var(--text-color);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 @media (max-width: 540px) {
